@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var PromptSync = require("prompt-sync");
+var prompt = PromptSync();
+var n1 = Number(prompt("digite o primeiro numero: "));
+var n2 = Number(prompt("digite o segundo numero: "));
+var soma = n1 + n2;
+var sub = n1 - n2;
+var mult = n1 * n2;
+var div = n1 / n2;
+console.log("\n    Soma:".concat(soma, "\n    Subtra\u00E7\u00E3o:").concat(sub, "\n    Multiplica\u00E7ao:").concat(mult, "\n    Divis\u00E3o:").concat(div, "\n    "));

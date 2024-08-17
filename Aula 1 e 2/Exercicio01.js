@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var PromptSync = require("prompt-sync");
+var prompt = PromptSync();
+var n1 = Number(prompt("Digite um numero: "));
+var n2 = (n1 - 1);
+var n3 = (n1 - 2);
+var n4 = (n1 + 1);
+var n5 = (n1 + 2);
+console.log("".concat(n2, ", ").concat(n3, ", ").concat(n1, ", ").concat(n4, ", ").concat(n5));
